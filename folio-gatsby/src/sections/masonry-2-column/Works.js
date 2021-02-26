@@ -89,6 +89,18 @@ const Works = () => {
                 >
                   Photography
                 </a>
+              </li><li className="nav-item">
+                <a
+                  className={`nav-link font-weight-bold text-uppercase ${
+                    activeLink === "loong" ? "active" : null
+                  }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    filterBy("loong");
+                  }}
+                >
+                  Loong
+                </a>
               </li>
             </ListNav>
           </Box>
