@@ -31,7 +31,7 @@ const Hero = () => {
                   Welcome
                 </Text>
                 <Title variant="hero">
-                  Mae , CU ARCH Junior
+                  Mae , CU ARCH Junior (Year 3)
                 </Title>
 
                 <Box mt="52px">
