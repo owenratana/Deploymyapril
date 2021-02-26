@@ -24,7 +24,7 @@ const Footer = ({ isDark = true }) => {
               `}
               className="text-uppercase"
             >
-              © 2020 All right reseved
+             Made by Chavin Panicharoen
             </Title>
           </div>
         </Container>

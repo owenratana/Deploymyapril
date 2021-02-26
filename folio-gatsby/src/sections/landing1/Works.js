@@ -48,7 +48,7 @@ const Works = () => {
                     filterBy("*");
                   }}
                 >
-                  All works
+                  Current Works
                 </a>
               </li>
               <li className="nav-item">
@@ -61,7 +61,7 @@ const Works = () => {
                     filterBy("branding");
                   }}
                 >
-                  Branding
+                  Arch
                 </a>
               </li>
               <li className="nav-item">
@@ -74,7 +74,7 @@ const Works = () => {
                     filterBy("ux-design");
                   }}
                 >
-                  UX Design
+                  Blogger
                 </a>
               </li>
               <li className="nav-item">
@@ -87,7 +87,7 @@ const Works = () => {
                     filterBy("photography");
                   }}
                 >
-                  Photography
+                  Boyfriend
                 </a>
               </li>
             </ListNav>

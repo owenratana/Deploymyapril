@@ -42,8 +42,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 1.5;
                   `}
                 >
-                  UX Designer based in New York, USA. I am designing with a
-                  minimal and beautiful design in mind.
+                  Architecture based on Bangkok.
                 </Text>
                 <Text color="light" className="mt-4">
                   I strive for a minimal and beautiful design.
@@ -56,7 +55,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                       href="mailto:hello@folio.com"
                       className="font-weight-bold"
                     >
-                      <Span color="light">hello@folio.com</Span>
+                      <Span color="light">ariya9400@hotmail.com</Span>
                     </a>
                   </Text>
                 </div>
@@ -64,10 +63,10 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                   <img src={imgSignLight} alt="sign" className="img-fluid" />
                 </div>
                 <Text color="light" className="mt-3 font-weight-bold">
-                  Bruce Ryan
+                  Ariya Ariyachotima
                 </Text>
                 <Text color="light" variant="small">
-                  Founder of Folio Digital
+                  Founder of 24floor.co
                 </Text>
                 <div className="mt-5 d-flex">
                   <LinkSocial
@@ -76,7 +75,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     rel="noopener noreferrer"
                     className="mr-3"
                   >
-                    Dribble
+                    Facebook
                   </LinkSocial>
                   <LinkSocial
                     href="https://www.twitter.com"
@@ -84,7 +83,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     rel="noopener noreferrer"
                     className=" mr-3"
                   >
-                    Twitter
+                    Instagram
                   </LinkSocial>
                   <LinkSocial
                     href="https://www.facebook.com"
@@ -92,7 +91,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     rel="noopener noreferrer"
                     className="mr-3"
                   >
-                    Facebook
+                    Instagram - Blog
                   </LinkSocial>
                   <LinkSocial
                     href="https://www.instagram.com"
@@ -100,7 +99,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     rel="noopener noreferrer"
                     className="font-weight-bold"
                   >
-                    Instagram
+                    Line
                   </LinkSocial>
                 </div>
               </div>

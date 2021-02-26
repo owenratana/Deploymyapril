@@ -1,5 +1,5 @@
 {
-  "homepage":"https://Chavin2543/github.io/Deploymyapril",
+  "homepage": "https://Chavin2543/github.io/Deploymyapril",
   "name": "folio-gatsby",
   "description": "Folio Gatsby with Bootstrap 4, Styled Components, Slick Carousel, React Icons, React Headroom, etc",
   "version": "1.0.0",
@@ -19,6 +19,7 @@
     "gatsby-source-filesystem": "^2.1.38",
     "gatsby-transformer-remark": "^2.6.49",
     "gatsby-transformer-sharp": "^2.3.13",
+    "gh-pages": "^3.1.0",
     "google-map-react": "^1.1.7",
     "lodash": "^4.17.15",
     "polished": "^3.4.2",
@@ -45,7 +46,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "deployment":"npm run build && gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "start": "yarn develop",
     "build": "gatsby clean && gatsby build",
     "clean": "gatsby clean",

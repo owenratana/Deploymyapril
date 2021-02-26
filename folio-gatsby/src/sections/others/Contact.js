@@ -28,8 +28,7 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
                   Contact now
                 </Title>
                 <Text color="light" mb="2.75rem">
-                  Have a project or question? Send me a message. I will reply
-                  within 48 hours.
+                  See me at ITF Silom Palace 24.floor
                 </Text>
                 <ContactForm theme="dark" />
               </Box>
@@ -39,8 +38,8 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
                 <div>
                   <Text color="light">Email me at</Text>
 
-                  <a href="mailto:hello@folio.com" className="font-weight-bold">
-                    <Span color="primary">hello@folio.com</Span>
+                  <a href="mailto:ariya9400@hotmail.com" className="font-weight-bold">
+                    <Span color="primary">ariya9400@hotmail.com</Span>
                   </a>
                 </div>
                 <div className="mt-5">
@@ -48,7 +47,7 @@ const Contact = ({ hero = true, bg = "dark", ...rest }) => {
 
                   <div>
                     <a href="tel:+1-402-4983" className="font-weight-bold">
-                      <Span color="primary">+1-402-4983</Span>
+                      <Span color="primary">06-3830-2828</Span>
                     </a>
                   </div>
                 </div>

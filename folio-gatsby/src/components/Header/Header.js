@@ -433,20 +433,6 @@ const Header = ({ isDark }) => {
                     }
                   )}
 
-                  {/* Open about modal */}
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="/#"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        gContext.toggleAbout();
-                      }}
-                    >
-                      about me.
-                    </a>
-                  </li>
-
                   {/* Open contact modal */}
                   <li className="nav-item">
                     <a
@@ -458,15 +444,6 @@ const Header = ({ isDark }) => {
                       }}
                     >
                       contact.
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="https://uxtheme.net/theme-support"
-                      target="_blank"
-                    >
-                      support
                     </a>
                   </li>
                 </Menu>
