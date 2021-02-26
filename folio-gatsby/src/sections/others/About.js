@@ -33,7 +33,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
             <Col lg="6">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                 <Title color="light" variant="secSm">
-                  Chavin Panicharoen
+                  Loong Chavin Panicharoen
                 </Title>
                 <Text
                   color="light"
