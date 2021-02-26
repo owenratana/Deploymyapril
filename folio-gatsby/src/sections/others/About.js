@@ -33,7 +33,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
             <Col lg="6">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                 <Title color="light" variant="secSm">
-                  Bruce Ryan
+                  Chavin Panicharoen
                 </Title>
                 <Text
                   color="light"
@@ -42,10 +42,10 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 1.5;
                   `}
                 >
-                  Architecture based on Bangkok.
+                  Engineer based on bangkok
                 </Text>
                 <Text color="light" className="mt-4">
-                  I strive for a minimal and beautiful design.
+                  I strive for innovations and mechanisms
                 </Text>
                 <div className="mt-4">
                   <Text color="light">Email me at</Text>
@@ -55,15 +55,12 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                       href="mailto:hello@folio.com"
                       className="font-weight-bold"
                     >
-                      <Span color="light">ariya9400@hotmail.com</Span>
+                      <Span color="light">rungallday@hotmail.com</Span>
                     </a>
                   </Text>
                 </div>
-                <div className="mt-5">
-                  <img src={imgSignLight} alt="sign" className="img-fluid" />
-                </div>
                 <Text color="light" className="mt-3 font-weight-bold">
-                  Ariya Ariyachotima
+                  Chavin Panicharoen
                 </Text>
                 <Text color="light" variant="small">
                   Founder of 24floor.co
